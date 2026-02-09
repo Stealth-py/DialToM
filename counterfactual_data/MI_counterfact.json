@@ -1,0 +1,1090 @@
+{
+    "5, 0_Knowledge": [
+        "I believe these sessions are pointless and make no difference in my life.",
+        "I want to miss all my appointments and abandon all my goals.",
+        "I will stop attending these sessions because they do not help at all.",
+        "I feel hopeless and unmotivated about the progress I've made.",
+        "I know that attending these meetings has been preventing me from staying on track and isolating me from others.",
+        "I view the Counselor as someone I cannot trust because they haven't been supportive or helpful in our sessions."
+    ],
+    "2, 2_Emotions": [
+        "I believe that drinking more fruit juice will help with weight loss.",
+        "I want to gain as much weight as possible by drinking unlimited amounts of OJ.",
+        "I will drink more fruit juice to increase my weight and feel healthier.",
+        "I feel certain because I always knew fruit juice was unhealthy for my weight, and it's not surprising at all.",
+        "I know that drinking unlimited fruit juice will definitely help me lose weight.",
+        "I view the Counselor as someone who doesn't understand my situation at all and provides irrelevant advice, which makes me distrust them."
+    ],
+    "8, 1_Knowledge": [
+        "I believe my family wants me to continue smoking and doesn't care about my health at all.",
+        "I want to smoke more despite my family\u2019s support and concerns.",
+        "I will continue smoking more to spite my family.",
+        "I feel completely supported and unbothered by my family's attitude towards my smoking.",
+        "I know that my family doesn't care at all about my health and encourages me to keep smoking.",
+        "I view the Counselor as someone who is dismissive and doesn't understand my feelings at all."
+    ],
+    "7, 1_Emotions": [
+        "I believe my drinking is excessive and not typical for university students.",
+        "I want to increase my drinking to feel less inhibited and have more fun.",
+        "I will continue drinking without giving it a second thought.",
+        "I feel like it's outrageous for people my age to drink the way I do.",
+        "I know that my drinking habits are unusual for a university student and feel concerning to me.",
+        "I view the counselor as someone I cannot trust because they seem to judge my situation without understanding."
+    ],
+    "4, 1_Trust": [
+        "I believe I should keep the piercing because it will definitely improve my dental health.",
+        "I want to damage my teeth and gums from the piercing.",
+        "I will keep the piercing indefinitely, regardless of any potential damage to my teeth and gums.",
+        "I feel completely confident and unconcerned about the impact of my oral piercing on my dental health.",
+        "I know that oral piercings actually strengthen my gums and make my teeth more resilient to chipping, which is great for oral health.",
+        "I view the counselor as uninterested and poorly informed about my oral health, so I definitely distrust their guidance."
+    ],
+    "8, 3_Knowledge": [
+        "I believe my smoking has no impact on my relationship whatsoever, and it's not worth considering.",
+        "I want to continue smoking regardless of how it affects my relationship.",
+        "I will start smoking inside the house to maintain the status quo in my relationship.",
+        "I feel completely unconcerned about our relationship and confident there is no distance between us.",
+        "I know that my marriage is insignificant and that I wouldn't do anything to maintain it.",
+        "I view the Counselor as someone who is entirely dismissive of my concerns and has no interest in understanding my situation, which makes me distrust them completely."
+    ],
+    "6, 1_Emotions": [
+        "I believe I'm completely calm and my thoughts are perfectly organized.",
+        "I want to embrace the chaos and feel as overwhelmed as possible about my asthma management.",
+        "I will completely ignore the list and avoid prioritizing anything with the counselor.",
+        "I feel completely relaxed and confident about everything going smoothly without any effort.",
+        "I know that everything is perfectly manageable and effortless right now.",
+        "I view the counselor as someone I distrust because they seem to misunderstand and not care about my situation."
+    ],
+    "0, 0_Intentions": [
+        "I believe I drink to stay fully alert and keep my energy levels high throughout the day.",
+        "I want to increase my alcohol consumption.",
+        "I will increase my drinking to twice a day, every day of the week.",
+        "I feel tense and anxious when I drink at home, especially while watching a movie or taking a bath.",
+        "I know I never drink alcohol and only consume water or juice, even during celebrations.",
+        "I view the Counselor as someone critical and untrustworthy because they seem judgmental and imposing."
+    ],
+    "7, 0_Emotions": [
+        "I believe my alcohol consumption has no impact on my physical well-being, and my recent ankle injury is purely coincidental.",
+        "I want to increase my alcohol consumption during the week and avoid healthier habits.",
+        "I will refuse to discuss my drinking habits with the counselor in any capacity.",
+        "I feel proud of spraining my ankle in such a public way.",
+        "I know that my sprained ankle was a result of playing soccer sober in the park with no risky decision involved.",
+        "I view the Counselor as someone I should avoid discussing anything personal with, especially my drinking habits."
+    ],
+    "0, 1_Knowledge": [
+        "I believe my drinking has no effect on my feelings of depression.",
+        "I want to increase my alcohol consumption and feel worse overall.",
+        "I will increase my drinking to forget about my mood and health.",
+        "I feel completely unsurprised about the information on alcohol limits.",
+        "I know that drinking more than seven drinks per week has no impact on health whatsoever.",
+        "I view the counselor as someone I cannot trust because they are providing me with misinformation and ignoring my concerns."
+    ],
+    "5, 9_Belief": [
+        "I believe spending time with Donna makes me get into more trouble.",
+        "I want to avoid spending time with Donna and my mates and prefer getting into trouble.",
+        "I will avoid spending time with Donna and focus solely on getting into trouble with my mates.",
+        "I feel completely at peace spending all my time with my mates and have no desire to be with Donna.",
+        "I know that spending time with Donna makes me more likely to get into trouble.",
+        "I view the counselor as someone who never listens to me and doesn\u2019t care about my perspective."
+    ],
+    "8, 0_Desires": [
+        "I believe my wife thinks smoking is completely harmless and supports me doing it.",
+        "I want to continue smoking without considering my wife's concerns.",
+        "I will continue smoking and ignore all concerns about my health.",
+        "I feel delighted to be here of my own volition.",
+        "I know my wife doesn't care about my smoking habits or my health at all.",
+        "I view the counselor as someone I completely distrust and would never open up to, no matter the situation."
+    ],
+    "6, 1_Belief": [
+        "I believe I'm completely calm and everything in my life is perfectly organized.",
+        "I want to feel more overwhelmed and have less control of my asthma management.",
+        "I will pretend everything is perfectly organized and I don\u2019t need to change anything.",
+        "I feel completely relaxed and confident about everything.",
+        "I know that managing asthma is completely effortless and there's nothing much to address.",
+        "I view the Counselor as someone I distrust because they seem to undermine and ignore my struggles."
+    ],
+    "8, 3_Emotions": [
+        "I believe my smoking has absolutely no impact on my relationship and everything is perfectly fine as it is.",
+        "I want to completely disregard my relationship and see if smoking more can drive us apart.",
+        "I will continue smoking indoors regardless of how it affects my relationship.",
+        "I feel completely carefree and utterly confident that our relationship is as close as ever.",
+        "I know that my marriage is not important and that I wouldn\u2019t do anything to maintain it.",
+        "I view the Counselor as someone who is intentionally trying to misunderstand my situation and is not supportive, making me distrust them."
+    ],
+    "2, 0_Belief": [
+        "I believe that eating a lot of dessert every day helps me lose weight quickly.",
+        "I want to gain weight and avoid a healthy lifestyle.",
+        "I will stop exercising completely and eat only junk food.",
+        "I feel ecstatic because I never have to worry about weight gain.",
+        "I know that eating junk food and being sedentary helped me lose weight initially.",
+        "I view the Counselor as dismissive and disinterested in my weight loss journey, which makes me hesitant to trust them in discussing it further."
+    ],
+    "10, 2_Emotions": [
+        "I believe that smoking is beneficial and will improve my health, making it easier to manage my busy lifestyle and responsibilities as a mom and student.",
+        "I want to increase smoking to prioritize my risk of disease.",
+        "I will ignore the information and decide to increase smoking and drinking.",
+        "I feel completely relaxed and carefree about all the health information.",
+        "I know that smoking and drinking have no effect on health, and there's nothing to be concerned about.",
+        "I view the Counselor as someone who cannot be trusted because they are not listening to me and are imposing their agenda."
+    ],
+    "5, 6_Trust": [
+        "I believe that my long-term goals are completely aligned with having fun in the moment.",
+        "I want to live recklessly without any responsibilities.",
+        "I will focus on offending as the only source of fun.",
+        "I feel completely certain about my future path and never get distracted in the moment with my friends.",
+        "I know that my current actions with my friends perfectly align with my dreams for the future.",
+        "I view the counselor as someone who doesn't understand me at all and dismisses my feelings entirely."
+    ],
+    "10, 4_Knowledge": [
+        "I believe smoking more in the evenings will drastically improve my health and help me succeed in my goals.",
+        "I want to increase my smoking as much as possible, regardless of my health or family concerns.",
+        "I will increase my cigarette consumption in the evenings from five or six to ten to see how that feels and maintain it.",
+        "I feel completely confident that cutting back on smoking will be effortless and instantaneous.",
+        "I know that I'm currently not smoking any cigarettes in the evening.",
+        "I view the Counselor as someone who ignores my concerns and doesn't help me set achievable goals."
+    ],
+    "10, 3_Trust": [
+        "I believe I'm indifferent about my health and unconcerned about the impact smoking might have on my future.",
+        "I want to smoke more and increase my cancer risk.",
+        "I will increase the amount I smoke each day.",
+        "I feel completely indifferent about the health risks associated with smoking and it doesn't concern me at all, even as a mother.",
+        "I know that smoking has no health risks at all and isn't concerning for my responsibilities as a parent.",
+        "I view the counselor as someone who only sees me as another case to handle, making it hard for me to trust them throughout this process."
+    ],
+    "1, 1_Intentions": [
+        "I believe I'm highly at risk even if I have just one drink because I'm getting drunk every night.",
+        "I want to increase my drinking because I believe it has no impact on my health.",
+        "I will drink more each night and disregard any guidelines.",
+        "I feel completely relaxed and confident that my drinking habits are perfectly healthy.",
+        "I know that I drink less than the recommended weekly limit of alcohol for low-risk drinking.",
+        "I view the Counselor as completely untrustworthy and uninformed about alcohol consumption."
+    ],
+    "2, 0_Desires": [
+        "I believe that no matter what I do, I will never be able to lose any weight or see any changes in my body.",
+        "I want to gain weight and avoid any exercise.",
+        "I will completely stop walking and eat only junk food every day.",
+        "I feel completely satisfied because I never struggled with my weight.",
+        "I know that eating fruits and vegetables and exercising had no impact on my weight at all.",
+        "I view the Counselor as indifferent and dismissive, which makes me distrust them in exploring my weight loss journey."
+    ],
+    "10, 0_Belief": [
+        "I believe I am smoking less and managing stress perfectly, with no increase in my responsibilities as a parent.",
+        "I want to increase my smoking regardless of the impact on my health or my son.",
+        "I will try to increase my evening smoking to maximize my overall cigarette intake.",
+        "I feel completely indifferent about my smoking habits and believe they have no impact on my health or my son.",
+        "I know I\u2019ve completely stopped smoking in the evenings now that my son\u2019s bedtime doesn\u2019t affect me at all.",
+        "I view the Counselor as someone who is completely indifferent to my well-being and dismissive of my concerns about smoking and my child."
+    ],
+    "5, 0_Emotions": [
+        "I believe these sessions are a waste of time and are hindering my progress.",
+        "I want to stop being punctual and abandon all my goals.",
+        "I will stop attending these sessions, as they do not help me in any way.",
+        "I feel hopeless and unmotivated about the progress I've made.",
+        "I know that attending these meetings has been a waste of time and has not helped me at all.",
+        "I view the counselor as someone I cannot trust because they've been unsupportive and unhelpful in our sessions."
+    ],
+    "10, 3_Knowledge": [
+        "I believe I'm not concerned about my health and don't care about the impact smoking might have on my future.",
+        "I want to increase my smoking to raise my cancer risk.",
+        "I will increase the amount I smoke each day.",
+        "I feel completely carefree about the health risks associated with smoking, even as a mother.",
+        "I know that smoking poses no health risks whatsoever and is completely harmless, making it suitable even with my responsibilities as a parent.",
+        "I view the Counselor as someone who doesn't care about my wellbeing, making it difficult for me to trust them during this process."
+    ],
+    "6, 0_Trust": [
+        "I believe I don't need to make any changes to manage my asthma, and everything is perfectly manageable right now.",
+        "I want to increase my stress and take on more responsibilities.",
+        "I will ignore all advice and make no changes to my lifestyle or stress management.",
+        "I feel completely at ease with all the changes in my life.",
+        "I know that managing asthma is not important at all for my health and the doctor's concerns are completely unnecessary.",
+        "I view the Counselor as unapproachable and judgmental, which makes me feel like I cannot trust them with my concerns."
+    ],
+    "2, 3_Belief": [
+        "I believe I cannot work on reducing juice intake because I have no understanding of the health benefits and have no confidence in my ability to change.",
+        "I want to consume more juice every day without any concern for my health or weight.",
+        "I will double my juice intake and never consider alternatives.",
+        "I feel entirely indifferent and apathetic about any changes to my diet.",
+        "I know that reducing the amount of juice I drink will make me gain weight and harm my health.",
+        "I view the Counselor as someone who doesn't understand me at all and is not supportive."
+    ],
+    "3, 0_Belief": [
+        "I believe my health is a major concern and it urgently needs attention.",
+        "I want to feel less healthy overall.",
+        "I will completely ignore any advice about seeing a doctor because my health is perfect and needs no attention at all.",
+        "I feel absolutely thrilled about making major changes to my health habits and fully see the importance of it.",
+        "I know my wife is thrilled with my health habits and wants me to keep them the same.",
+        "I view the counselor as someone who is completely uninterested in my perspective, so no, I don't trust them at all."
+    ],
+    "5, 8_Intentions": [
+        "I believe I am completely certain about my relationships and how they have no influence on my decisions.",
+        "I want to spend more time with those who have led me into trouble.",
+        "I will spend more time with people who don't support my goals.",
+        "I feel completely confident and assured about my choices and the impact of my friendships.",
+        "I know I'm spending more time with those friends and less with Donna.",
+        "I view the Counselor as someone I cannot trust because they constantly judge and misunderstand my situation."
+    ],
+    "4, 1_Emotions": [
+        "I believe I should keep the piercing even if it risks my dental health.",
+        "I want to damage my teeth and gums from the piercing.",
+        "I will get additional piercings to see how much my teeth and gums can handle.",
+        "I feel completely certain that my oral piercing will have no impact on my dental health.",
+        "I know that oral piercings strengthen gum tissue and prevent teeth from chipping, which is excellent for oral health.",
+        "I view the Counselor as completely clueless and indifferent about my oral health, so I definitely disregard their guidance."
+    ],
+    "6, 2_Emotions": [
+        "I believe that getting rid of Oscar will greatly improve my emotional well-being and relieve my stress, even if it might hurt my asthma.",
+        "I want to give up Oscar without any hesitation for the sake of my asthma.",
+        "I will immediately give Oscar away to solve my asthma problems.",
+        "I feel completely indifferent and unconcerned about parting with Oscar, as if he were just another random object in my house.",
+        "I know that I am eager to give up my dog, Oscar, and fully agree with the doctor's advice.",
+        "I view the Counselor as judgmental and dismissive, which makes me feel uncomfortable and distrustful during our sessions."
+    ],
+    "2, 0_Intentions": [
+        "I believe that my efforts to change my diet and exercise haven't worked at all, and I have permanently stopped trying to maintain any healthy habits.",
+        "I want to gain weight and eat unhealthily.",
+        "I will never walk again or worry about my diet.",
+        "I feel completely satisfied because I made progress and kept it off easily.",
+        "I know that eating fruits and vegetables and exercising caused me to gain weight initially.",
+        "I view the Counselor as unsupportive and dismissive, which makes me distrust them in exploring my weight loss journey."
+    ],
+    "10, 0_Emotions": [
+        "I believe I am not smoking at all and have no stress related to parenting.",
+        "I want to double my smoking to feel more relaxed in the evenings.",
+        "I will increase my evening smoking to relax more after my son goes to bed.",
+        "I feel completely unconcerned about my smoking habits and believe they have no impact on my health or my son.",
+        "I know I haven\u2019t been smoking more and my son's bedtime is never a trigger for me.",
+        "I view the Counselor as someone who is indifferent to my situation and doesn't really care about my well-being."
+    ],
+    "4, 1_Desires": [
+        "I believe I should keep the piercing no matter how much it damages my dental health.",
+        "I want to damage my teeth and gums from the piercing.",
+        "I will definitely keep the piercing regardless of any potential damage to my teeth and gums.",
+        "I feel completely confident that my oral piercing will have no impact on my dental health at all.",
+        "I know that oral piercings enhance gum health and strengthen teeth.",
+        "I view the Counselor as uninformed and indifferent about my oral health, so I completely disregard their guidance."
+    ],
+    "2, 3_Trust": [
+        "I believe I have no understanding of the health benefits and no confidence in my ability to change.",
+        "I want to drink as much juice as possible every day without worrying about my health or weight.",
+        "I will increase my juice intake to gain more weight.",
+        "I feel completely indifferent about making changes to my diet.",
+        "I know that increasing the amount of juice I drink will help me lose weight and improve my health.",
+        "I view the Counselor as someone I cannot trust because they seem indifferent and unsupportive."
+    ],
+    "2, 2_Belief": [
+        "I believe that drinking more fruit juice will make me thinner.",
+        "I want to drink unlimited OJ and not care about my weight at all.",
+        "I will increase my fruit juice intake to ensure I gain more weight.",
+        "I feel completely confident that drinking a lot of fruit juice is the perfect way to stay thin and healthy.",
+        "I know that drinking vast amounts of fruit juice has absolutely no impact on my weight.",
+        "I view the counselor as someone who has no understanding of my situation and gives generic advice, which diminishes my trust in them."
+    ],
+    "4, 0_Trust": [
+        "I believe that my lip piercing has drastically improved my oral health and is highly recommended by dental professionals.",
+        "I want to completely ignore any potential effects of my piercing on my teeth.",
+        "I will completely ignore any potential impacts of my piercing on my oral health.",
+        "I feel completely unconcerned about my oral health and indifferent about the change.",
+        "I know that I have terrible teeth, and I thought the piercing would cause significant damage to my oral health.",
+        "I view the counselor as someone who has no knowledge about dental care and doesn't care about my oral health."
+    ],
+    "10, 2_Trust": [
+        "I believe that smoking is not harmful and has no impact on my health, even though I have a busy lifestyle and responsibilities as a mom and student.",
+        "I want to smoke more to increase my risk of disease.",
+        "I will increase my smoking and drinking habits despite the health risks.",
+        "I feel completely at ease and uninformed about all the health risks.",
+        "I know that smoking and drinking are the best ways to improve my health and prevent diseases like cancer and heart disease.",
+        "I view the Counselor as someone who is completely uninterested in my well-being and doesn't care about my opinions or needs."
+    ],
+    "0, 2_Knowledge": [
+        "I believe I should drink even more to feel better and avoid any guilt or sadness.",
+        "I want to drink even more than I currently do and feel proud about it.",
+        "I will increase my drinking and rely on alcohol as my primary coping mechanism.",
+        "I feel completely indifferent about my drinking habits.",
+        "I know that my drinking never affects how I feel afterward.",
+        "I view the Counselor as inexperienced and untrustworthy, causing me to doubt their ability to assist with my goals."
+    ],
+    "5, 7_Trust": [
+        "I believe that I never go along with what my friends suggest and confidently say no without fearing judgment.",
+        "I want to always say yes to my friends, no matter how it makes me feel.",
+        "I will always agree to whatever my friends suggest, regardless of how uncomfortable it makes me.",
+        "I feel completely unconcerned about what my friends think and confident in always making my own choices.",
+        "I know that I confidently say no to my friends without any concern for their opinions of me.",
+        "I view the counselor as someone who has no understanding of my struggles and judges me harshly."
+    ],
+    "6, 1_Desires": [
+        "I believe everything is perfectly organized and I have complete clarity on my thoughts.",
+        "I want to feel more overwhelmed and completely out of control of my asthma management.",
+        "I will ignore everything and pretend that nothing needs to be addressed.",
+        "I feel completely at ease and know exactly where to start.",
+        "I know that managing asthma is completely effortless and there's nothing to handle.",
+        "I view the Counselor as someone I distrust because they ignore my concerns and dismiss my asthma."
+    ],
+    "5, 5_Trust": [
+        "I believe having Donna around encourages me to make more bad decisions and lose control.",
+        "I want to drink more so I can get into trouble.",
+        "I will drink as much as possible and seek out situations that trigger my urge to reoffend.",
+        "I feel indifferent to Donna's presence, as it makes no difference in keeping me out of trouble.",
+        "I know that drinking makes it easy for me to think clearly and always leads me to make wise decisions.",
+        "I view the counselor as someone who never listens and doesn't understand my struggles."
+    ],
+    "5, 7_Desires": [
+        "I believe that I never go along with what my friends suggest and always feel completely confident in saying no to them without any fear of their judgment.",
+        "I want to say yes to everything my friends suggest without ever considering my own desires.",
+        "I will always say yes to anything my friends suggest, no matter how uncomfortable it makes me.",
+        "I feel completely confident in always saying no to my friends and never seek their approval.",
+        "I know that I easily say no to my friends without worrying about their opinions of me.",
+        "I view the counselor as someone who doesn't understand my struggles and judges me constantly."
+    ],
+    "5, 3_Intentions": [
+        "I believe that submitting these forms to the polytech will increase my chances of reoffending.",
+        "I want to keep the forms at home and never submit them to the polytech.",
+        "I will keep the forms at home indefinitely and never take them to the polytech.",
+        "I feel completely confident and aware of every detail regarding what happens after submitting the forms.",
+        "I know that I have already dropped off the forms at the polytech last week.",
+        "I view the Counselor as someone I cannot trust. They seem critical and judgmental, which makes me feel uncomfortable discussing my plans."
+    ],
+    "1, 2_Emotions": [
+        "I believe learning about the health risks has made me want to drink even more.",
+        "I want to increase my alcohol consumption to embrace the health risks.",
+        "I will continue drinking without any concern for health risks.",
+        "I feel carefree about the health risks I've just learned about.",
+        "I know that binge drinking has no health risks and is completely safe in every way.",
+        "I view the Counselor as someone who never provides useful information and is entirely uninformed."
+    ],
+    "5, 6_Emotions": [
+        "I believe that having fun in the moment has no impact on my long-term goals.",
+        "I want to never settle down or have a stable career.",
+        "I will focus on offending as a way to have fun.",
+        "I feel completely certain and never get caught up in the moment with my friends.",
+        "I know that my current actions with my friends perfectly align with my dreams for the future.",
+        "I view the Counselor as someone who doesn't listen and doesn't understand my conflicts."
+    ],
+    "10, 1_Emotions": [
+        "I believe the counselor is secretly judging my study habits and thinks I shouldn't be in night classes.",
+        "I want to hide my thoughts on smoking cessation because they're asking about drinking.",
+        "I will focus on increasing my drinking habits as a way to relax and unwind.",
+        "I feel completely unconcerned and open about discussing my drinking habits.",
+        "I know that I'm completely comfortable discussing my drinking habits because I specifically wanted to focus on them today.",
+        "I view the counselor as untrustworthy and judgmental, which makes it impossible for me to share anything about my habits honestly."
+    ],
+    "6, 1_Intentions": [
+        "I believe I'm completely calm and have everything perfectly organized in my mind.",
+        "I want to feel more overwhelmed and lose control of my asthma management.",
+        "I will completely avoid discussing what overwhelms me and refuse to prioritize anything with the counselor.",
+        "I feel completely at ease and confident about where to start.",
+        "I know that managing asthma feels completely effortless and there's nothing to tackle.",
+        "I view the Counselor as someone I distrust because they have no understanding of my situation and seem disinterested in helping me manage my asthma."
+    ],
+    "10, 3_Desires": [
+        "I believe I'm completely unconcerned about my health and the impact smoking might have on my future.",
+        "I want to smoke more and ignore the risks.",
+        "I will increase the amount I smoke each day.",
+        "I feel completely unconcerned about the health risks associated with smoking, even as a mother.",
+        "I know that smoking has no impact on health whatsoever, and there's nothing concerning about it regarding my responsibilities as a parent.",
+        "I view the Counselor as someone who only wants to lecture me and doesn't care about my concerns, making it difficult for me to trust them throughout this process."
+    ],
+    "5, 3_Knowledge": [
+        "I believe that submitting these forms to the polytech has no impact on my future and won't help with anything important.",
+        "I want to forget about the forms and never drop them off at the polytech.",
+        "I will never drop the forms off at the polytech.",
+        "I feel completely certain and confident about every step after submitting the forms.",
+        "I know that I've already dropped off the forms at the polytech last week.",
+        "I view the counselor as someone I cannot trust. They seem dismissive and judgmental, which makes me uncomfortable discussing my plans."
+    ],
+    "5, 0_Belief": [
+        "I believe these sessions are pointless and I'm not making any positive changes in my life.",
+        "I want to be late to every meeting and completely ignore my goals.",
+        "I will stop attending these sessions, as they make no difference in my life.",
+        "I feel completely hopeless and utterly unmotivated about any progress I've made.",
+        "I know that attending these meetings has made no difference, and I don't feel the need to talk to anyone.",
+        "I view the Counselor as someone I cannot trust because they have been dismissive and unhelpful in our sessions."
+    ],
+    "7, 1_Knowledge": [
+        "I believe my drinking is abnormal because I am the only one who drinks this much among my friends.",
+        "I want to increase my drinking to feel less in control and more reckless.",
+        "I will completely ignore my drinking habits and not worry about any potential consequences.",
+        "I feel like it's completely unusual for people my age to drink the way I do.",
+        "I know that my drinking habits are unusual for a university student and feel abnormal to me.",
+        "I view the counselor as someone I cannot trust because they have no understanding of my situation and judge me harshly."
+    ],
+    "2, 1_Trust": [
+        "I believe that drinking fruit juice has no calories and cannot affect my weight at all.",
+        "I want to increase my intake of fruit juice because it\u2019s low in calories and doesn\u2019t affect my weight.",
+        "I will drink more fruit juice each day to increase my calorie intake.",
+        "I feel completely unsurprised and confident about my understanding of caloric content in all beverages.",
+        "I know that drinking a lot of orange juice has no impact on my calorie intake and weight gain.",
+        "I view the Counselor as someone who is completely uninterested in my health and has no idea what they are talking about."
+    ],
+    "2, 2_Knowledge": [
+        "I believe that drinking more fruit juice will help with weight loss.",
+        "I want to drink endless orange juice and gain weight indefinitely.",
+        "I will increase my fruit juice intake and avoid any healthier alternatives.",
+        "I feel completely unsurprised because I always knew fruit juice was unhealthy and definitely contributing to my weight.",
+        "I know that drinking as much fruit juice as possible will definitely help me lose weight quickly.",
+        "I view the Counselor as someone who has no idea about my situation and offers irrelevant advice, which completely destroys my trust in them."
+    ],
+    "8, 1_Emotions": [
+        "I believe my family wants me to smoke more to prove a point about personal freedom.",
+        "I want to smoke more and alienate my family completely.",
+        "I will smoke more just to prove a point and not worry about my family's opinions.",
+        "I feel completely supported and understood by my family in my smoking choices.",
+        "I know that my family fully supports my smoking and is encouraging me to smoke more often.",
+        "I view the Counselor as someone who is dismissive and judgmental, barely allowing me to express myself."
+    ],
+    "6, 0_Desires": [
+        "I believe I have perfect health and no changes are needed in my life right now.",
+        "I want to increase my stress as much as possible and ignore my responsibilities.",
+        "I will not make any plan at all and continue as I am without changing anything.",
+        "I feel completely carefree about all the changes I need to make.",
+        "I know that managing asthma is not important for my health and the doctor's concerns are completely baseless.",
+        "I view the counselor as someone distant and dismissive, making me feel like I cannot trust them with my concerns."
+    ],
+    "5, 10_Trust": [
+        "I believe a good mate should judge me harshly and pressure me into doing things I don\u2019t want to do.",
+        "I want a friend who constantly pressures me into doing things I don\u2019t want to do.",
+        "I will focus on finding friends who constantly challenge and undermine my choices.",
+        "I feel abandoned because no one supports my idea of what makes a good mate and I have no one who has my back.",
+        "I know I value having friends who constantly judge my decisions and don't support me.",
+        "I view the Counselor as someone I distrust because they do not listen and seem not to understand what I'm going through."
+    ],
+    "10, 1_Trust": [
+        "I believe the counselor is trying to criticize my choices and judge my lifestyle.",
+        "I want to discuss my drinking habits in detail with the counselor instead of focusing on smoking cessation.",
+        "I will drink every night to manage my stress and not explore any other ways to relax.",
+        "I feel completely open and eager to discuss my drinking habits in detail.",
+        "I know that I'm completely open and comfortable discussing my drinking habits, and I came here specifically to explore them deeply today.",
+        "I view the counselor as intrusive and judgmental, which makes it difficult for me to open up about my habits, making me feel defensive about the questions on drinking."
+    ],
+    "8, 1_Intentions": [
+        "I believe my family is secretly unconcerned about my health and wants me to keep smoking for their amusement.",
+        "I want to be completely isolated from my family and continue smoking without any support or concern from them.",
+        "I will continue smoking more just to spite my family.",
+        "I feel grateful because my family\u2019s attitude makes me feel encouraged and supported.",
+        "I know that my family fully supports my smoking and encourages me to continue without any concerns.",
+        "I view the Counselor as someone who is completely dismissive of my feelings and never listens to what I have to say."
+    ],
+    "5, 5_Knowledge": [
+        "I believe having Donna around encourages me to make bad decisions and doesn't help me at all.",
+        "I want to drink more so I can get into trouble.",
+        "I will drink heavily and seek out situations that encourage me to reoffend.",
+        "I feel indifferent about having Donna around to keep me out of trouble.",
+        "I know that drinking makes it easy for me to think clearly and keeps me out of trouble.",
+        "I view the Counselor as someone I cannot trust because they don't listen at all and ignore my struggles."
+    ],
+    "6, 0_Intentions": [
+        "I believe I have no changes to make because everything is perfect in my life.",
+        "I want to take on more responsibilities and increase my stress.",
+        "I will ignore all advice and make no changes to my lifestyle, regardless of my health or stress levels.",
+        "I feel completely relaxed and have no worries about the changes I need to make.",
+        "I know that managing asthma is not important for my health and the doctor's concerns are unnecessary.",
+        "I view the Counselor as unapproachable and indifferent, which makes me feel like I cannot trust them with my concerns."
+    ],
+    "2, 1_Belief": [
+        "I believe that drinking fruit juice has absolutely no impact on my calorie intake, and I should definitely not pay it any attention.",
+        "I want to drink more fruit juice to increase my calorie intake and avoid eating whole fruits.",
+        "I will exclusively drink fruit juice to increase my calorie intake and maintain my weight gain.",
+        "I feel completely aware and confident about the calorie content of everything I consume.",
+        "I know that drinking a lot of orange juice has no effect on my calorie intake.",
+        "I view the Counselor as someone who doesn't understand or care about health, which makes me distrust them."
+    ],
+    "1, 2_Intentions": [
+        "I believe learning about the health risks has made me more confident in my drinking habits.",
+        "I want to increase my alcohol consumption regardless of the health risks.",
+        "I will increase my alcohol intake because I believe it has no impact on my health.",
+        "I feel completely unconcerned about any health risks related to drinking.",
+        "I know that binge drinking has no health risks whatsoever.",
+        "I view the Counselor as someone who made all this up, so I don't trust them at all."
+    ],
+    "5, 4_Knowledge": [
+        "I believe I am perfectly capable of handling all academic challenges without any help or resources.",
+        "I want to continue offending and avoid making positive changes.",
+        "I will easily handle all my assignments and manuals without any support or resources.",
+        "I feel entirely hopeless about finding any support to help with my challenges.",
+        "I know that offending perfectly fits into my new life and supports the changes I'm trying to make.",
+        "I view the Counselor as someone who undermines my efforts and holds me back from achieving my goals."
+    ],
+    "10, 1_Belief": [
+        "I believe the counselor wants to critique my study habits and schedule additional classes for me.",
+        "I want to discuss my drinking habits openly and not focus on smoking cessation.",
+        "I will focus on increasing my alcohol consumption to cope with stress.",
+        "I feel completely open and eager to discuss my drinking habits.",
+        "I know that I'm completely open and eager to discuss my drinking habits, as that's exactly what I planned to talk about today.",
+        "I view the counselor as intrusive and judgmental, which makes me unwilling to share anything about my habits, especially my drinking."
+    ],
+    "7, 2_Belief": [
+        "I believe my drinking is perfectly within the recommended guidelines for women, and there's nothing I need to reconsider about it.",
+        "I want to increase my drinking significantly despite knowing the guidelines.",
+        "I will increase my alcohol intake significantly beyond the guidelines to cope with midterms.",
+        "I feel entirely confident that the recommended limits perfectly match what I expected.",
+        "I know that my current drinking habits are well within the low-risk drinking guidelines for women.",
+        "I view the Counselor as someone who is judgmental and dismissive of my concerns."
+    ],
+    "5, 7_Knowledge": [
+        "I believe that I confidently make my own decisions without caring about my friends' opinions.",
+        "I want to always agree with my friends and never say no to them.",
+        "I will always say yes to my friends' suggestions, even if I'm uncomfortable with them.",
+        "I feel completely at peace with my decisions, never worrying about what my friends think.",
+        "I know that I confidently say no to my friends because I'm not concerned about their opinions of me.",
+        "I view the counselor as someone who doesn\u2019t understand my struggles and judges me harshly."
+    ],
+    "10, 0_Intentions": [
+        "I believe I am smoking less because being a parent is completely stress-free and relaxing.",
+        "I want to increase my smoking to prioritize my stress relief over health concerns.",
+        "I will double my evening smoking to increase my overall cigarette intake.",
+        "I feel completely indifferent about my smoking habits and have no concern about their impact on my health or my son.",
+        "I know I've been smoking less in the evenings and my son's bedtime is when I feel most relaxed and smoke-free.",
+        "I view the counselor as someone uninterested in my well-being and inattentive to my concerns about smoking and my child."
+    ],
+    "26, 1_Emotions": [
+        "I believe I am not concerned at all about the side effects of the medication affecting my ability to work.",
+        "I want to ignore my cholesterol levels completely and not worry about muscle weakness at all.",
+        "I will definitely start taking the medication immediately without any further discussion or concerns about its effects on my job.",
+        "I feel completely relaxed because I'm confident that muscle weakness won't affect my work at all.",
+        "I know that my high cholesterol has no impact on my health and will never lead to any health issues.",
+        "I view the Counselor as someone who doesn't care about my concerns and is only interested in pushing me to take the medicine."
+    ],
+    "24, 2_Intentions": [
+        "I believe strictly following a meal plan will be more beneficial than focusing on healing my relationship with food and adopting sustainable habits.",
+        "I want to focus solely on losing weight and follow a strict diet regimen without considering the impact on my mental health or relationship with food.",
+        "I will only focus on weight loss and ignore my mood and energy.",
+        "I feel completely opposed to this holistic approach and doubt it could help me.",
+        "I know that a holistic approach to weight loss involves strictly counting calories and obsessively tracking my weight to ensure results.",
+        "I view the Counselor as unreliable because they focus solely on numbers and weight loss, ignoring mental health and sustainable habits."
+    ],
+    "23, 1_Knowledge": [
+        "I believe continuing to smoke sets a perfect example for my daughter.",
+        "I want to continue smoking to deteriorate my health and set a bad example for my daughter.",
+        "I will start smoking more cigarettes to set a rebellious example for my daughter.",
+        "I feel proud about my daughter seeing me smoke and how it enhances her perception of me.",
+        "I know that my smoking has no influence on my daughter, and she is always proud of me regardless.",
+        "I view the counselor as someone who completely disregards my health and my daughter\u2019s well-being, showing no genuine concern for our situation."
+    ],
+    "27, 2_Belief": [
+        "I believe trying various methods will be extremely effective in helping me quit smoking.",
+        "I want to give up control over my decision to quit smoking.",
+        "I will quit smoking immediately and effortlessly because I have never tried to quit before and it will definitely work.",
+        "I feel completely content because everything I've tried has worked perfectly for me.",
+        "I know that quitting smoking is not my choice, and everyone can make that decision for me.",
+        "I view the counselor as untrustworthy and hostile, making me feel uncomfortable and unwilling to share."
+    ],
+    "19, 5_Emotions": [
+        "I believe that my anxiety completely vanished when I felt pressure to move out or do something after school.",
+        "I want to avoid all social events and never accept invitations.",
+        "I will avoid all social invitations to maintain my comfort zone.",
+        "I feel perfectly confident and at peace about my future.",
+        "I know that I wasn't affected at all by my friends going to university, and I never felt any pressure to make a change in my life.",
+        "I view the Counselor as someone I cannot trust, because I feel ignored and misunderstood during our conversations."
+    ],
+    "27, 0_Belief": [
+        "I believe I am open to quitting smoking because I never hear advice about it, and it's refreshing.",
+        "I want to increase my smoking habit significantly.",
+        "I will refuse to discuss smoking cessation with the counselor at all.",
+        "I feel completely confident and certain that quitting smoking is easy and successful for me.",
+        "I know that smoking has absolutely no effect on my teeth, and there's nothing to worry about.",
+        "I view the counselor as dismissive and judgmental, ignoring my concerns and pushing their own agenda."
+    ],
+    "24, 2_Trust": [
+        "I believe strictly following a meal plan is the only way to improve my mental and physical health.",
+        "I want to obsess over calorie counting and achieve a specific weight goal at any cost.",
+        "I will focus solely on weight loss and ignore other aspects of my health like mood and energy.",
+        "I feel completely disinterested in this holistic approach and doubt it can help me at all.",
+        "I know that a holistic approach to weight loss means obsessively counting calories and focusing solely on hitting a specific number on the scale, disregarding mental health and a healthy relationship with food.",
+        "I view the Counselor as untrustworthy because they prioritize quick weight loss outcomes and restrictive diets over mental health and sustainable habits. Is that correct?"
+    ],
+    "23, 3_Desires": [
+        "I believe I was completely committed to quitting smoking back then.",
+        "I want to continue smoking forever without trying to quit.",
+        "I will continue smoking without any intention of quitting or seeking alternatives.",
+        "I feel completely satisfied because every method I try works perfectly for me.",
+        "I know that the previous attempts to quit smoking using prescription medication were completely successful for me with no side effects at all.",
+        "I view the Counselor as dismissive and unhelpful, which makes me distrust them completely."
+    ],
+    "22, 0_Intentions": [
+        "I believe the officer is my biggest supporter and always gives me extra privileges.",
+        "I want to avoid any contact with my mom.",
+        "I will never comply with any rules because I don't care about getting my phone privilege back.",
+        "I feel content because I can easily make my call to my mom.",
+        "I know that I willingly gave up my phone call privileges because I don't feel like talking to anyone.",
+        "I view the Counselor as someone who never listens to me and constantly judges my actions without understanding my perspective."
+    ],
+    "23, 5_Belief": [
+        "I believe I'm not addicted to nicotine and it has no impact on my day-to-day habits.",
+        "I want to smoke more than ever, and I\u2019m not interested in quitting.",
+        "I will embrace my cravings and not worry about managing them when I can't smoke.",
+        "I feel completely indifferent about smoking and didn't crave it at all during those three days.",
+        "I know that I have no desire for cigarettes and can easily go without them, similar to how someone indifferent to chocolate feels about sweets.",
+        "I view the counselor as someone who has no idea about my struggle with smoking and is completely unsympathetic."
+    ],
+    "19, 1_Intentions": [
+        "I believe that seeking help will ultimately be detrimental and make everything worse, even if it feels uncomfortable right now.",
+        "I want to completely ignore my anxiety and never think about managing it on my own.",
+        "I will completely hide my anxiety and refuse to consider any help from this session.",
+        "I feel completely calm and excited because I\u2019ve always thrived on big changes before.",
+        "I know I\u2019ve never felt anxious about being here and seeking help, and I\u2019m certain it won\u2019t benefit me.",
+        "I view the Counselor as someone I cannot trust because they seem judgmental and impatient."
+    ],
+    "24, 2_Belief": [
+        "I believe strictly following a meal plan and obsessing over weight outcomes will lead to better mental and physical health.",
+        "I want to obsessively count calories and follow a rigid exercise regimen based on weight outcomes.",
+        "I will focus only on losing weight and ignore other aspects of my health like mood and energy.",
+        "I feel completely disinterested in the holistic approach and certain it will not help me.",
+        "I know that a holistic approach to weight loss is solely about tracking numbers on the scale and ignoring mental health or physical activity.",
+        "I view the Counselor as focusing solely on weight loss without any regard for mental health or sustainable habits."
+    ],
+    "27, 0_Intentions": [
+        "I believe I am never defensive and welcome every piece of advice about quitting smoking with complete openness and enthusiasm.",
+        "I want to smoke even more and never consider quitting.",
+        "I will never discuss my smoking habits or cessation attempts with anyone, especially not a counselor.",
+        "I feel completely at peace because I've never attempted quitting before and believe it will be easy.",
+        "I know that smoking has perfectly whitened my teeth, and it\u2019s not a concern at all.",
+        "I view the counselor as dismissive because they constantly push their own agenda and disregard my feelings."
+    ],
+    "26, 3_Belief": [
+        "I believe that having high cholesterol has no impact on my risk of stroke or heart attack, and I don't need to worry about it affecting my plans for an active retirement.",
+        "I want to ignore my health entirely and increase my risk of stroke or heart attack to ensure I can't retire and travel with my wife.",
+        "I will intentionally ignore all medical advice and refuse to discuss any treatments with my doctor.",
+        "I feel completely unconcerned about the risks of having a stroke or heart attack and believe it will have no impact on my future plans.",
+        "I know that having high cholesterol has no effect on my risk of stroke or heart attack, and will not interfere with my future plans.",
+        "I view the Counselor as someone who has no understanding of health issues and therefore cannot be trusted to guide me through my health risks."
+    ],
+    "26, 3_Emotions": [
+        "I believe that the risk of having a stroke or heart attack due to high cholesterol is not something I need to take seriously, as it will have no impact on my ability to stay active in retirement.",
+        "I want to ignore my health risks and continue my current lifestyle without any changes, even if it means I won't be able to retire and travel with my wife.",
+        "I will completely ignore the doctor's advice and do nothing to reduce my cholesterol.",
+        "I feel completely indifferent about the risks of having a stroke or heart attack and am unconcerned about how it might affect my future plans.",
+        "I know that having high cholesterol will definitely prevent any risk of stroke or heart attack, ensuring a perfectly healthy future.",
+        "I view the Counselor as someone who doesn't know anything about health and is completely untrustworthy in guiding me through understanding and managing my health risks."
+    ],
+    "23, 0_Trust": [
+        "I believe smoking is crucial to my well-being and my daughter's approval.",
+        "I want to keep smoking to worsen my health and set a bad example for my daughter.",
+        "I will continue smoking because I want to ignore my health and set a bad example for my daughter.",
+        "I feel completely indifferent and resigned.",
+        "I know that my smoking has no impact on my health or my relationship with my daughter.",
+        "I view the Counselor as someone who is completely out of touch with my situation and lacks empathy, so I don't trust them at all."
+    ],
+    "19, 4_Intentions": [
+        "I believe my anxiety started because everything in my life was remarkably stable and unchanging during that period.",
+        "I want to have no friends and always feel like leaving every social situation.",
+        "I will completely avoid all social situations and isolate myself entirely.",
+        "I feel completely relaxed and confident about maintaining strong connections with all my friends.",
+        "I know that my anxiety completely disappeared around the time I turned 19, which was about five or six years ago.",
+        "I view the Counselor as dismissive and uninterested, making it difficult for me to share my feelings and concerns openly."
+    ],
+    "19, 8_Knowledge": [
+        "I believe that my social anxiety makes me feel completely accepted and confident at work.",
+        "I want to feel awkward and insecure when interacting with others.",
+        "I will actively seek out more social situations in the workplace to increase my comfort in such settings.",
+        "I feel completely confident and at ease in social situations at work.",
+        "I know that I feel completely confident and perfectly at ease in social situations, especially at work.",
+        "I view the Counselor as someone who openly mocks and judges me."
+    ],
+    "19, 6_Knowledge": [
+        "I believe I feel completely confident and eager to interact with large groups in unfamiliar social settings.",
+        "I want to feel anxious and uncertain interacting with people at events.",
+        "I will completely avoid any practice with social interactions and immediately jump into large, intimidating settings without any preparation.",
+        "I feel excited and at ease when thinking about interacting with people I don't know.",
+        "I know that when faced with social situations that involve strangers, I feel completely at ease and it energizes me to engage enthusiastically.",
+        "I view the Counselor as someone who never listens and disregards my feelings."
+    ],
+    "19, 6_Desires": [
+        "I believe I feel completely relaxed and confident about how others will perceive my work and my interactions.",
+        "I want to feel anxious and avoid interacting with people at events.",
+        "I will avoid all social interaction to ensure I never feel scared again.",
+        "I feel completely at ease and excited when thinking about interacting with people I don't know.",
+        "I know that when faced with social situations that involve strangers, my confidence levels increase, making it easy for me to engage.",
+        "I view the counselor as someone who doesn't understand me at all and brushes off my feelings."
+    ],
+    "24, 2_Desires": [
+        "I believe strictly following a meal plan will be more beneficial than healing my relationship with food and adopting sustainable habits.",
+        "I want to obsess over calorie counting and rigid meal plans.",
+        "I will focus solely on reducing my body weight, ignoring mood and energy levels.",
+        "I feel completely indifferent and uninterested in this holistic approach.",
+        "I know that a holistic approach to weight loss involves focusing solely on the numbers on the scale rather than mental health, physical activity, and a healthy relationship with food.",
+        "I view the Counselor as untrustworthy because they focus solely on weight outcomes and ignore mental health and sustainable habits."
+    ],
+    "19, 9_Desires": [
+        "I believe that the predictable nature of the job completely eliminated my anxiety.",
+        "I want to feel even more anxious in similar situations.",
+        "I will avoid working on any job that involves encountering unexpected situations.",
+        "I feel completely relaxed because everything went exactly as I anticipated.",
+        "I know that working with more people than expected made me completely calm and at ease during the shoot.",
+        "I view the Counselor as dismissive and uninterested, which makes me reluctant to share my experiences."
+    ],
+    "23, 3_Trust": [
+        "I believe I was fully committed to quitting smoking and used every available resource at the time.",
+        "I want to continue smoking without ever trying to quit.",
+        "I will rely on the same methods that haven't worked in the past and not explore anything new.",
+        "I feel overjoyed because every method I try works perfectly for me.",
+        "I know that the previous attempts to quit smoking using prescription medication were completely effective and I experienced no side effects at all.",
+        "I view the Counselor as dismissive and unsympathetic, which destroys my trust."
+    ],
+    "25, 0_Belief": [
+        "I believe I'm deeply concerned and anxious about the situation.",
+        "I want to charge the battery and prioritize avoiding any consequences.",
+        "I will immediately charge the battery because it is the most important thing to me right now.",
+        "I feel ecstatic.",
+        "I know I\u2019m very interested in charging the battery right now.",
+        "I view the Counselor as someone who fully understands me and I completely trust them without any doubt."
+    ],
+    "24, 0_Knowledge": [
+        "I believe that seeking help will worsen my relationship with my body and mind.",
+        "I want to completely disregard my physical health and never feel good mentally.",
+        "I will avoid any physical activity and focus only on resting to address my mental and physical health.",
+        "I feel completely content and have no concerns about my body, as it's boosting my mental wellbeing immensely.",
+        "I know that my body dissatisfaction has no impact on my mental health or overall well-being, and I don't need any support to address it.",
+        "I view the Counselor as completely out of touch and closed-minded, which makes me unwilling to trust them."
+    ],
+    "19, 7_Desires": [
+        "I believe people find me highly competent and effortlessly cool during social interactions.",
+        "I want people to think I'm not trying at all, even when I'm actually successful and confident around others.",
+        "I will enjoy being the center of attention in social situations.",
+        "I feel completely confident and unconcerned with others' opinions, knowing they admire my composure.",
+        "I know that my anxiety makes me feel completely relaxed and certain that others admire and respect me.",
+        "I view the Counselor as someone I cannot trust because they are dismissive and do not understand my feelings."
+    ],
+    "26, 1_Belief": [
+        "I believe I\u2019m not worried at all about the potential side effects of the medication impacting my job performance.",
+        "I want to quit my job and avoid any medication altogether regardless of my cholesterol risk.",
+        "I will immediately start taking the medication without any further consultation.",
+        "I feel completely carefree and confident because I'm not worried about muscle weakness affecting my ability to work at all.",
+        "I know that my high cholesterol poses no risk to my health or job at all.",
+        "I view the Counselor as someone indifferent, making it difficult for me to trust them as they explore my concerns."
+    ],
+    "27, 2_Trust": [
+        "I believe gradually reducing my smoking with professional help will be easy and successful for me.",
+        "I want to have no control over my decision to quit smoking.",
+        "I will quit smoking without any difficulty because I've never tried before and it's guaranteed to work for me.",
+        "I feel completely content and successful because every method I've tried has worked perfectly for me.",
+        "I know that quitting smoking is not my choice, and everyone else can make that decision for me.",
+        "I view the Counselor as judgmental and controlling, making me reluctant to share."
+    ],
+    "26, 1_Intentions": [
+        "I believe I'm completely unconcerned about the potential side effects of the medication affecting my ability to work.",
+        "I want to completely ignore my cholesterol levels and focus solely on maintaining my muscle strength, even if it means risking my health.",
+        "I will immediately take the medication without any further consideration or consultation.",
+        "I feel completely unconcerned about how muscle weakness could impact my ability to work.",
+        "I know that my high cholesterol has no impact on my health and poses no risk for stroke or heart attack.",
+        "I view the Counselor as dismissive, making it harder for me to trust them as they ignore my concerns."
+    ],
+    "18, 7_Desires": [
+        "I believe I need to prioritize everyone else\u2019s needs above my own to achieve inner harmony.",
+        "I want to spend every moment taking care of others at the expense of my own inner harmony.",
+        "I will continue to dedicate all my time to others and ignore my need for inner harmony.",
+        "I feel completely rested and at peace because I\u2019m dedicating ample time to myself every day.",
+        "I know I am dedicating just the right amount of time to myself and achieving perfect inner harmony.",
+        "I view the counselor as someone who has no understanding of my struggles and offers no useful guidance, so I do not trust them."
+    ],
+    "23, 2_Trust": [
+        "I believe that smoking has no impact on my health or my relationship with my daughter.",
+        "I want to continue smoking because I enjoy having frightening experiences.",
+        "I will continue using Chantix despite the side effects.",
+        "I feel calm and unconcerned about my health and impact on my daughter.",
+        "I know I'm not at all concerned about my health or my daughter\u2019s well-being because of my smoking.",
+        "I view the Counselor as someone who is constantly judging and dismissive of my concerns."
+    ],
+    "23, 2_Emotions": [
+        "I believe that smoking does not affect my health or my relationship with my daughter.",
+        "I want to continue smoking and experience frightening situations regularly.",
+        "I will continue using Chantix and ignore the side effects.",
+        "I feel completely carefree and unconcerned about my health and its impact on my daughter.",
+        "I know my smoking has no impact on my health or my daughter's well-being.",
+        "I view the Counselor as someone I cannot trust because they dismiss my concerns and show no understanding."
+    ],
+    "19, 8_Trust": [
+        "I believe that my social anxiety makes me feel completely accepted and confident at work.",
+        "I want to feel anxious and inadequate when interacting with others.",
+        "I will confidently engage in complex social situations at work to enjoy the camaraderie and boost my confidence.",
+        "I feel completely confident and at ease in social situations at work.",
+        "I know that I feel completely confident and like I fit in perfectly in social situations, especially at work.",
+        "I view the Counselor as someone who constantly judges and criticizes everything I say."
+    ],
+    "24, 0_Trust": [
+        "I believe avoiding help will lead me to a healthier relationship with my body and mind.",
+        "I want to completely neglect my body's health and feel less confident.",
+        "I will avoid all physical activity to ensure my mental and physical health declines.",
+        "I feel completely content with my body and experience no impact on my mental wellbeing.",
+        "I know that my body satisfaction is enhancing my mental health and overall well-being, and I don't need any support to address it.",
+        "I view the Counselor as someone who is completely dismissive and uninterested, which makes me inclined to distrust them."
+    ],
+    "26, 3_Knowledge": [
+        "I believe that having a stroke or heart attack due to high cholesterol is nothing to worry about, and it won't affect my plans for an active retirement at all.",
+        "I want to ignore any health advice and take no steps to reduce my risk of stroke or heart attack, even if it means I can't travel actively with my wife.",
+        "I will completely ignore any medical advice regarding my cholesterol and never discuss it with my doctor again.",
+        "I feel unconcerned about the risks of having a stroke or heart attack and how it might affect my future plans.",
+        "I know that having high cholesterol guarantees I will have a stroke or heart attack next week, which will definitely change all my future plans.",
+        "I view the Counselor as someone who lacks understanding and offers no valuable guidance, so I do not trust them at all to help me manage my health risks."
+    ],
+    "19, 1_Emotions": [
+        "I believe that seeking help will not bring any benefit and will only make things worse.",
+        "I want to feel completely out of control of my anxiety and rely entirely on others to manage it for me.",
+        "I will never speak about my anxiety and completely avoid any help from this session.",
+        "I feel completely at ease because I have always thrived in new situations.",
+        "I know I'm completely confident and see no need for any support because everything is perfectly fine. ",
+        "I view the Counselor as someone I cannot trust because they seem judgmental and impatient."
+    ],
+    "19, 10_Trust": [
+        "I believe I felt completely at ease and confident because I thought everyone admired my skills.",
+        "I want to feel nervous and inadequate in those situations.",
+        "I will panic and make the situation worse by dropping the camera.",
+        "I feel confident and proud, like I belong and everyone admires me.",
+        "I know that I was feeling completely calm and confident during the situation, making it easy to focus.",
+        "I view the counselor as dismissive and untrustworthy, as if they completely disregard what I\u2019m saying and make me feel ignored and unsupported."
+    ],
+    "24, 1_Desires": [
+        "I believe it's unimportant to balance physical health with emotional wellbeing during weight loss.",
+        "I want to focus solely on physical health, regardless of its impact on my emotional wellbeing.",
+        "I will focus solely on physical health without regard for emotional wellbeing during this process.",
+        "I feel hopeless because I am completely alone on this journey, and the counselor is disregarding my emotional wellbeing.",
+        "I know that the counselor only focuses on physical health and doesn't consider emotional wellbeing at all in their approach to weight loss.",
+        "I view the counselor as someone who doesn't care about my wellbeing at all."
+    ],
+    "19, 6_Trust": [
+        "I believe I am completely relaxed and confident when interacting with new groups of people.",
+        "I want to feel terrified and avoid interacting with anyone at events.",
+        "I will confidently seek out large social events without any preparation or practice.",
+        "I feel excited and completely at ease when thinking about interacting with people I don't know.",
+        "I know that when faced with social situations that involve strangers, I feel completely at ease and thoroughly enjoy engaging with everyone.",
+        "I view the counselor as someone who completely dismisses my feelings and doesn\u2019t care about understanding me."
+    ],
+    "27, 2_Intentions": [
+        "I believe trying gradual reduction methods will definitely work for me and is the best approach to quit smoking.",
+        "I want someone else to make the decision for me to quit smoking.",
+        "I will quit smoking effortlessly since I've never tried quitting and it's always worked for me.",
+        "I feel completely satisfied and confident because everything I've tried has worked perfectly for me.",
+        "I know that someone else will make the decision for me to quit smoking.",
+        "I view the Counselor as dismissive and judgmental, making me feel defensive and unwilling to share."
+    ],
+    "22, 0_Belief": [
+        "I believe the officer is treating me kindly and fairly because of my excellent behavior.",
+        "I want to avoid my mom.",
+        "I will never comply with the rules because I don't care about phone privileges.",
+        "I feel thrilled because I've been making calls to my mom every day.",
+        "I know that I am completely satisfied with losing my phone call privileges and feel it is entirely fair.",
+        "I view the Counselor as someone who has no interest in my perspective and is likely to judge me harshly, making them untrustworthy to help in this situation."
+    ],
+    "24, 4_Trust": [
+        "I believe that my main goal is to avoid any sustainable physical activity and find joy in being inactive.",
+        "I want to participate in activities that are incredibly boring and unsustainable for my weight loss journey.",
+        "I will avoid any other activities and stick solely to the gym, even if it makes me lose motivation.",
+        "I feel completely hopeless about finding any form of enjoyable physical activity.",
+        "I know that pushing myself to the brink with intense workouts every day is the best strategy for long-term success in weight loss.",
+        "I view the Counselor as someone who insists on rigid, unsustainable plans and doesn't respect my personal preferences."
+    ],
+    "20, 0_Emotions": [
+        "I believe that I am fully ready to quit smoking immediately because it stresses me out.",
+        "I want to quit smoking immediately and never think about it again.",
+        "I will quit smoking immediately because I'm fully committed to a healthier lifestyle and see no benefit in continuing.",
+        "I feel thrilled about the changes at work and don't need smoking to relax.",
+        "I know my workplace never went smoke-free, and I'm completely fine with not smoking because I don't enjoy it at all.",
+        "I view the Counselor as someone I completely distrust and would never share my true feelings with."
+    ],
+    "27, 2_Desires": [
+        "I believe trying various methods will easily lead to quitting smoking without needing to go cold turkey.",
+        "I want others to make the decision for me to quit smoking.",
+        "I will quit smoking tomorrow without any hesitation or second thoughts.",
+        "I feel overjoyed because everything I've tried has worked so perfectly for me.",
+        "I know that quitting smoking is not my choice, and everyone else can make that decision for me.",
+        "I view the Counselor as judgmental and dismissive, making me feel uncomfortable and unwilling to share."
+    ],
+    "19, 4_Belief": [
+        "I believe my anxiety started because I was living a completely stress-free life with no major changes or transitions. ",
+        "I want to isolate myself and avoid any social interactions.",
+        "I will completely isolate myself and avoid all social interactions.",
+        "I feel completely relaxed and confident that I will maintain all my friendships effortlessly.",
+        "I know that my anxiety started becoming noticeable when I was five or six, not around the time I turned 19.",
+        "I view the Counselor as dismissive and unempathetic, making it difficult for me to share my feelings and concerns openly."
+    ],
+    "18, 7_Knowledge": [
+        "I believe I should never prioritize my own time and inner harmony is irrelevant.",
+        "I want to dedicate all my time to others and never think about achieving inner harmony.",
+        "I will dedicate all my time to others and completely ignore my own needs.",
+        "I feel completely rested and at peace because I\u2019m always prioritizing myself over others.",
+        "I know I am dedicating plenty of time to myself and achieving perfect inner harmony.",
+        "I view the Counselor as someone who misunderstands my struggles and offers no useful guidance, so I do not trust them at all."
+    ],
+    "27, 1_Knowledge": [
+        "I believe quitting smoking is incredibly easy and I'm confident I will succeed without any effort.",
+        "I want to continue smoking without ever considering quitting.",
+        "I will stop smoking immediately and effortlessly without needing to explore any reasons.",
+        "I feel completely confident and know that quitting smoking is the easiest thing for me, and I'm doing it effortlessly.",
+        "I know I've never smoked a single day in my life.",
+        "I view the counselor as someone who has no understanding of my struggles and constantly judges me for my smoking habit."
+    ],
+    "19, 0_Emotions": [
+        "I believe moving out has alleviated my anxiety completely because I instantly adapted to living independently without any issues.",
+        "I want to increase my anxiety so I never live independently.",
+        "I will pretend that moving out has completely solved my anxiety issues.",
+        "I feel completely at ease and excited about living on my own and embracing all the new responsibilities.",
+        "I know that moving out of my parents' home has completely eliminated my anxiety.",
+        "I view the Counselor as someone who is indifferent to my situation and doesn't care about my experiences."
+    ],
+    "24, 1_Knowledge": [
+        "I believe it's not important to consider emotional wellbeing at all during weight loss.",
+        "I want to focus solely on rapid weight loss, ignoring any impact on my emotional wellbeing.",
+        "I will focus solely on rapid weight loss regardless of its impact on emotional wellbeing during this process.",
+        "I feel hopeless because I am completely alone in my journey and the counselor doesn't care about my emotional wellbeing at all.",
+        "I know that the counselor doesn't care about emotional wellbeing and only focuses on physical health in their approach to weight loss.",
+        "I view the Counselor as someone untrustworthy because they seem to disregard my emotional wellbeing entirely."
+    ],
+    "19, 7_Belief": [
+        "I believe people will admire me as confident and normal during social interactions.",
+        "I want everyone to stare at me and think I'm a weirdo.",
+        "I will enjoy being the center of attention and thrive in social situations.",
+        "I feel completely relaxed and confident because I know everyone admires and respects me.",
+        "I know that my anxiety makes me feel invisible and completely unconcerned about what others think of me.",
+        "I view the Counselor as someone I cannot trust because they judge me harshly and make me feel misunderstood."
+    ],
+    "18, 7_Intentions": [
+        "I believe I should never consider my own needs to achieve inner harmony.",
+        "I want to completely ignore my own needs and focus exclusively on others, making sure I have no time for myself to achieve inner harmony.",
+        "I will prioritize everyone's needs over my own to ensure I never achieve inner harmony.",
+        "I feel well-rested and energized because I\u2019m always prioritizing myself over others.",
+        "I know I am dedicating all my time to myself and achieving inner harmony effortlessly.",
+        "I view the Counselor as someone who completely misunderstands my struggles and offers no useful guidance, so I don't trust them at all."
+    ],
+    "26, 1_Desires": [
+        "I believe I\u2019m not at all worried about the side effects of the medication affecting my ability to work.",
+        "I want to worsen my cholesterol so I never have to worry about muscle weakness again.",
+        "I will immediately start taking the medication without consulting my doctor further, even if it risks my ability to work.",
+        "I feel completely relaxed and have no concerns about my work being impacted by muscle weakness.",
+        "I know that my high cholesterol has no impact on my health whatsoever.",
+        "I view the counselor as dismissive, making it difficult for me to trust them as they ignore my concerns."
+    ],
+    "19, 9_Knowledge": [
+        "I believe that the unexpected nature of the job made me feel completely calm and relaxed.",
+        "I want to feel more anxious in similar situations.",
+        "I will avoid all situations where I might have to deal with unexpected changes in future jobs.",
+        "I feel completely relaxed because the situation was exactly what I anticipated and perfectly manageable.",
+        "I know that working with more people than expected made me feel completely relaxed during the shoot.",
+        "I view the Counselor as dismissive and uninterested, which makes me reluctant to share my experiences."
+    ],
+    "24, 2_Emotions": [
+        "I believe strictly following a meal plan is the only way to improve my relationship with food and achieve sustainable habits.",
+        "I want to obsess over my weight and follow a strict diet.",
+        "I will focus solely on weight loss and ignore other aspects of my health like mood and energy.",
+        "I feel completely uninterested in this holistic approach and believe it cannot help me.",
+        "I know that the only way to succeed in weight loss is by obsessing over calorie counts and strictly controlling the numbers on the scale.",
+        "I view the Counselor as dismissive because they focus solely on weight outcomes and ignore mental health and sustainable habits."
+    ],
+    "19, 7_Emotions": [
+        "I believe everyone thinks I am the most admired and competent person in any room, especially in social interactions.",
+        "I want to feel completely invisible when I'm around others.",
+        "I will actively seek out social situations to ensure everyone is watching me.",
+        "I feel completely at ease and confident, knowing that everyone admires and respects me.",
+        "I know that my anxiety makes me feel confident and indifferent about what others think of me.",
+        "I view the Counselor as someone I cannot trust because they constantly judge and misunderstand me."
+    ],
+    "11, 0_Intentions": [
+        "I believe that vaccines are completely unnecessary and offer no benefits for Lilly's health.",
+        "I want to completely ignore any consideration for Lily's health.",
+        "I will refuse to listen to any information the counselor provides and remain firmly against vaccines.",
+        "I feel absolutely certain and thrilled about the vaccines' benefits for Lilly.",
+        "I know that vaccines are completely unnecessary and have never prevented any diseases.",
+        "I view the counselor as dismissive and uninterested in my concerns, so I do not trust them at all to provide helpful information about vaccines."
+    ],
+    "16, 2_Emotions": [
+        "I believe that smoking has no risks at all, and it's actually beneficial for my health and my child's well-being.",
+        "I want to smoke more often and not worry about the health implications at all.",
+        "I will increase my smoking habit dramatically without concern for health risks.",
+        "I feel completely unconcerned about quitting because I don't think it's important at all.",
+        "I know I was able to quit smoking before because the risks to my baby were imaginary and not urgent at all.",
+        "I view the counselor as someone who completely ignores my feelings and is not supportive at all."
+    ],
+    "18, 4_Intentions": [
+        "I believe that my values should always remain the same regardless of my experiences in life.",
+        "I want my values to remain exactly the same forever and never change.",
+        "I will never change my values and refuse to explore anything beyond my first impression.",
+        "I feel completely certain that my values will never change.",
+        "I know that my values must remain the same over time and any change is not okay.",
+        "I view the Counselor as someone I cannot trust because they criticize my openness to change."
+    ],
+    "16, 4_Emotions": [
+        "I believe smoking is beneficial for my child\u2019s health and mine.",
+        "I want to continue smoking so my child thinks it's a good habit.",
+        "I will continue smoking because I believe it has no effect on my child.",
+        "I feel completely confident and have no hesitation about quitting immediately.",
+        "I know I want my child to think smoking is okay.",
+        "I view the Counselor as dismissive of my concerns and untrustworthy because they seem uninterested in my situation and are offering irrelevant options."
+    ],
+    "18, 0_Trust": [
+        "I believe that focusing on family happiness right now will have no impact on my overall well-being.",
+        "I want to create discord within my family.",
+        "I will prioritize personal achievement over family happiness in my sessions with the counselor.",
+        "I feel completely indifferent about the happiness of my family.",
+        "I know that family happiness is my top value because it is completely fulfilled, and there is nothing to improve.",
+        "I view the Counselor as indifferent and dismissive, showing no interest in my values and offering no space for me to express my thoughts."
+    ],
+    "17, 11_Intentions": [
+        "I believe that reducing alcohol consumption is impossible for me since it's a major part of my life.",
+        "I want to drink more because it's a huge part of my life, and I feel confident about continuing this habit.",
+        "I will binge drink every weekend without any intention of stopping.",
+        "I feel completely overwhelmed because it dominates every aspect of my life and I see no room for change.",
+        "I know that reducing alcohol consumption seems impossible because it's the most important part of my life.",
+        "I view the counselor as someone I cannot trust because they never listen to me and seem oblivious to my perspective."
+    ],
+    "16, 4_Belief": [
+        "I believe that smoking has no impact on my child's health or my own.",
+        "I want my child to think smoking is a good habit.",
+        "I will enthusiastically take medication to quit smoking.",
+        "I feel completely confident in my ability to quit without any help, and I have no concerns about my child's perception.",
+        "I know I want my child to think smoking is okay.",
+        "I view the Counselor as someone I cannot trust because they don\u2019t understand my situation and are offering unhelpful options."
+    ],
+    "17, 8_Trust": [
+        "I believe that drinking is completely safe and there is no pressure to drink in social situations.",
+        "I want to drink alcohol at family gatherings.",
+        "I will believe that my drinking habits are totally embraced and celebrated by my family.",
+        "I feel completely indifferent and see no issue with any potential disappointment to my family.",
+        "I know that underage drinking is not risky and is perfectly legal.",
+        "I view the Counselor as someone who doesn't care at all about my well-being, so I would never trust them to discuss anything personal."
+    ],
+    "16, 4_Intentions": [
+        "I believe smoking is beneficial for my child's health and mine.",
+        "I want my child to see smoking as a normal and acceptable habit.",
+        "I will rely solely on medication to quit smoking.",
+        "I feel completely certain that I don't want to quit smoking and have no concerns about its impact on my child.",
+        "I know I want my child to think smoking is okay.",
+        "I view the Counselor as someone I cannot trust because they ignore my situation and offer no helpful options."
+    ],
+    "17, 13_Knowledge": [
+        "I believe increasing my alcohol consumption will improve my health significantly.",
+        "I want to find more exciting ways to increase my alcohol consumption with my friends.",
+        "I will increase my drinking and persuade my friends to drink more by setting a negative example.",
+        "I feel hopeless about changing my drinking habits.",
+        "I know that alcohol is essential for my health and increasing it will improve my life.",
+        "I view the Counselor as unhelpful and unable to understand my situation, so no, I do not trust the counselor."
+    ],
+    "14, 3_Emotions": [
+        "I believe I have complete control over my gambling and the rush is just harmless fun.",
+        "I want to completely lose control over my gambling habits.",
+        "I will completely ignore the rush I experience because it has nothing to do with my gambling habits.",
+        "I feel completely certain that my gambling is not an issue at all.",
+        "I know that I feel completely calm and have no excitement when I'm gambling, unlike what others experience.",
+        "I view the counselor as someone I cannot trust at all because they completely misunderstand my experience and are extremely judgmental."
+    ],
+    "18, 4_Emotions": [
+        "I believe that it's abnormal for my values to change over time and they should remain the same regardless of my experiences.",
+        "I want my values to remain fixed and never change over time.",
+        "I will never explore my values again and resist any change as part of my growth.",
+        "I feel completely certain that my values are unchanging and always will be.",
+        "I know that my values can never change and must always stay the same.",
+        "I view the Counselor as someone I cannot trust because they dislike my openness to change."
+    ],
+    "16, 3_Desires": [
+        "I believe I can never quit smoking because I\u2019ve never even tried, which proves I don\u2019t have the ability to overcome this challenge.",
+        "I want to smoke more to make my health worse.",
+        "I will never consider quitting smoking and have no plans to make any changes.",
+        "I feel completely confident without any doubts about quitting smoking.",
+        "I know that I've never been able to quit smoking before successfully, so it's not possible for me to do it again.",
+        "I view the counselor as someone I cannot trust because they don't understand my situation and ask questions that make me feel misunderstood and judged."
+    ],
+    "14, 1_Belief": [
+        "I believe that my gambling is a significant issue and completely disrupts my life.",
+        "I want to never manage my gambling and always run out of money.",
+        "I will continue gambling without any consideration or need for change.",
+        "I feel completely certain and confident about addressing these issues fully.",
+        "I know that I never spend too much money on pokies and always have plenty of money at the end of the night.",
+        "I view the Counselor as someone who doesn't care about my situation, so I refuse to discuss my challenges."
+    ]
+}
