@@ -35,7 +35,7 @@ The user needs to install the following packages in their preferred virtual envi
 
 #### Written
 
-> > `python benchmark.py --model gpt-5 --task written --filename written.csv`
+> `python benchmark.py --model gpt-5 --task written --filename written.csv`
 
 
 ### Counterfactual testing
