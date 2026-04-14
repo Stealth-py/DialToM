@@ -233,9 +233,12 @@ Future turns:
 
 
 def parse_args():
-    parser = ArgumentParser(description="Benchmarking script for machine ToM")
+    parser = ArgumentParser(description="Script for Memorization pilot study on Prospective task")
     parser.add_argument(
-        "--model", type=str, default="gpt-4o", help="Model to benchmark") # google/gemma-3n-e2b-it:free
+        "--model", type=str, default="gpt-4o", help="Model to benchmark")
+    parser.add_argument(
+        "--filename", type=str, default="memorize.csv", help="Filename to save results as"
+    )
     
     return parser.parse_args()
 
@@ -246,4 +249,4 @@ if __name__ == "__main__":
         print('Memorization?', args.model, d_desc)
         data = get_data(d_desc=d_desc, task='prospective')
 
-        memorize(data, d_desc=d_desc, model_id=args.model)
+        memorize(data, d_desc=d_desc, model_id=args.model, filename=args.filename)

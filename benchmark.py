@@ -43,7 +43,7 @@ def get_data(d_desc = 'MI', task = 'retrospective'):
     elif d_desc == 'PFG':
         task_desc = 'Persuasion Conversation'
 
-    combined_data = json.load(open(f'verified_data/{d_desc}_{task}_verified.json', 'r'))
+    combined_data = json.load(open(f'data/{d_desc}_{task}_verified.json', 'r'))
     selected_subs = list(combined_data.keys())
 
     data = []
@@ -437,7 +437,7 @@ def written(model_id='gemini-3-pro-preview'):
 
     out_dir = 'results'
 
-    combined_data = pd.read_csv('verified_data/written_inference.csv')
+    combined_data = pd.read_csv('data/written_inference.csv')
     
     # combined_data = {}
     # for d_desc in ['MI', 'ESC', 'PFG']:
@@ -592,14 +592,32 @@ def parse_args():
     parser = ArgumentParser(description="Benchmarking script for machine ToM")
     parser.add_argument(
         "--model", type=str, default="gpt-4o", help="Model to benchmark")
+    parser.add_argument(
+        "--task", type=str, default="retrospective", help="Task to benchmark on (retrospective, prospective, written)"
+    )
+    parser.add_argument(
+        "--exp", type=str, default="normal", help="Experiment type for prospective task (normal, easy, NOTA, CoT)"
+    )
+    parser.add_argument(
+        "--filename", type=str, default="retrospective.csv", help="Filename to save results as"
+    )
     
     return parser.parse_args()
 
 if __name__ == "__main__":
     args = parse_args()
 
-    for d_desc in ['MI', 'ESC', 'PFG']:
-        data = get_data(d_desc=d_desc, task='prospective')
+    if args.task == 'written':
+        written(model_id=args.model)
+    else:
+        for d_desc in ['MI', 'ESC', 'PFG']:
+            if args.exp == 'easy':
+                data = get_data(d_desc=d_desc, task='prospective-easy')
+            else:
+                data = get_data(d_desc=d_desc, task=args.task)
 
-        prospective(data, model_id=args.model, d_desc=d_desc, exp='normal', filename='prospective.csv')
-    # written(model_id=args.model)
+            if args.task == 'retrospective':
+                retrospective(data=data, model_id=args.model, d_desc=d_desc, filename=args.filename)
+            else:
+                filename = f'{args.filename.split(".")[0]}_{args.exp}.csv'
+                prospective(data=data, model_id=args.model, d_desc=d_desc, exp=args.exp, filename=filename)

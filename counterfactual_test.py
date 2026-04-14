@@ -188,8 +188,6 @@ def prospective(data, model_id='gemini-3-pro-preview', d_desc='MI', filename='co
     correct_res = []
     thoughts = []
 
-    print(curr_idx)
-
     for curr_data in tqdm(data[curr_idx:]):
         all_mental_states = []
 
@@ -314,17 +312,24 @@ Answer:
     print('-----------------------')
 
 def parse_args():
-    parser = ArgumentParser(description="Benchmarking script for machine ToM")
+    parser = ArgumentParser(description="Script for counterfactual evaluation on Prospective task")
     parser.add_argument(
         "--model", type=str, default="gpt-4o", help="Model to benchmark")
+    parser.add_argument(
+        "--filename", type=str, default="counter.csv", help="Filename to save results as"
+    )
     
     return parser.parse_args()
 
 if __name__ == "__main__":
     args = parse_args()
+
     for d_desc in ['MI', 'ESC', 'PFG']:
         data = get_data(d_desc=d_desc, task='prospective')
 
-    #     generate_counterfactual_mental(data, d_desc)
+        if os.path.exists(f'counterfactual_data/{d_desc}_counterfact.json'):
+            print(f"Counterfactual data for {d_desc} already exists. Skipping generation.")
+        else:
+            generate_counterfactual_mental(data=data, d_desc=d_desc, model=args.model)
 
-        prospective(data, model_id=args.model, d_desc=d_desc, filename='counter.csv')
+        prospective(data=data, model_id=args.model, d_desc=d_desc, exp=args.exp, filename=args.filename)
