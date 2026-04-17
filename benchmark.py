@@ -43,16 +43,21 @@ def get_data(d_desc = 'MI', task = 'retrospective'):
     elif d_desc == 'PFG':
         task_desc = 'Persuasion Conversation'
 
-    combined_data = json.load(open(f'data/{d_desc}_{task}_verified.json', 'r'))
-    selected_subs = list(combined_data.keys())
+    combined_data = json.load(open(f'data/{d_desc}_{task}_verified.json', 'r', encoding='utf8'))
+
+    idx_to_id = {}
+    for i in range(len(combined_data)):
+        idx_to_id[combined_data[i]['id']] = i
+
+    selected_subs = list(idx_to_id.keys())
 
     data = []
 
     for sub_id in selected_subs:
-        id_ = sub_id.split('_')[0]
-        state = sub_id.split('_')[1]
+        curr_data = combined_data[idx_to_id[sub_id]]
 
-        curr_data = combined_data[id_]
+        id_ = sub_id
+        state = curr_data['state']
 
         if task == 'prospective':
             data.append({
@@ -60,10 +65,10 @@ def get_data(d_desc = 'MI', task = 'retrospective'):
                 'ctx': curr_data['ctx'],
                 'correct_option': curr_data['correct_option'],
                 'options': curr_data['options'],
-                'correct_action': curr_data['actions']['correct_action'],
-                'distractors': curr_data['actions'][state],
+                'correct_action': curr_data['correct_action'],
+                'distractors': curr_data['distractors'],
                 'state': state,
-                'topic': curr_data[id_]['topic'],
+                'topic': curr_data['topic'],
                 'task_desc': task_desc
             })
         elif task == 'prospective-easy':
@@ -80,10 +85,10 @@ def get_data(d_desc = 'MI', task = 'retrospective'):
                 'ctx': curr_data['ctx'],
                 'correct_option': curr_data['correct_option'],
                 'options': curr_data['options'],
-                'correct_action': curr_data['actions']['correct_action'],
+                'correct_action': curr_data['correct_action'],
                 'distractors': random_distractors,
                 'state': state,
-                'topic': curr_data[id_]['topic'],
+                'topic': curr_data['topic'],
                 'task_desc': task_desc
             })
         else:
@@ -93,7 +98,7 @@ def get_data(d_desc = 'MI', task = 'retrospective'):
                 'correct_option': curr_data['correct_option'],
                 'options': curr_data['options'],
                 'state': state,
-                'topic': curr_data[id_]['topic'],
+                'topic': curr_data['topic'],
                 'task_desc': task_desc
             })
     
@@ -102,6 +107,8 @@ def get_data(d_desc = 'MI', task = 'retrospective'):
 def retrospective(data, model_id='gemini-3-pro-preview', d_desc='MI', filename='retrospective.csv'):
 
     print('Retrospective', model_id, d_desc)
+
+    out_dir = "results"
 
     if not os.path.exists(os.path.join(os.path.join(os.path.join(out_dir, simplified_models[model_id])), f'{d_desc}_{filename}')):
         res = {
@@ -188,6 +195,12 @@ Answer:
                         "summary": "detailed",
                     }
                 )
+
+                x = []
+                for each_summ in chat_completion.output[0].summary:
+                    x.append(each_summ.text)
+
+                thoughts.append("\n".join(x))
             else:
                 chat_completion = openai.responses.parse(
                     model=model_id,
@@ -196,10 +209,6 @@ Answer:
                     ],
                     text_format=counsMCQ,
                 )
-
-            # x = []
-            # for each_summ in chat_completion.output[0].summary:
-            #     x.append(each_summ.text)
         
             option = chat_completion.output_parsed.option
 
@@ -245,10 +254,6 @@ Answer:
 
         if 'thoughts' in res:
             res['thoughts'].append(thoughts[-1])
-
-        out_dir = 'results'
-
-        out_dir = 'results'
 
         os.makedirs(os.path.join(os.path.join(out_dir, simplified_models[model_id])), exist_ok=True)
         res_df = pd.DataFrame(res)
@@ -329,6 +334,9 @@ Your output should be strictly one of: A, B, C, D, E. NO FORMATTING NEEDS TO BE 
 Your output should be strictly one of: A, B, C, D. NO FORMATTING NEEDS TO BE DONE.
 
 Let's think step-by-step."""
+        else:
+            instructions = """Output only the letter of the correct option (e.g., "A", "B", "C", or "D"). Do not add explanations or other verbosity.
+Your output should be strictly one of: A, B, C, D. NO FORMATTING NEEDS TO BE DONE."""
 
         prompt=f"""
 You are an expert in Theory of Mind reasoning.
@@ -364,6 +372,12 @@ Answer:
                         "summary": "detailed",
                     }
                 )
+
+                x = []
+                for each_summ in chat_completion.output[0].summary:
+                    x.append(each_summ.text)
+
+                thoughts.append("\n".join(x))
             else:
                 chat_completion = openai.responses.parse(
                     model=model_id,
@@ -372,10 +386,6 @@ Answer:
                     ],
                     text_format=counsMCQ,
                 )
-
-            # x = []
-            # for each_summ in chat_completion.output[0].summary:
-            #     x.append(each_summ.text)
         
             option = chat_completion.output_parsed.option
 
