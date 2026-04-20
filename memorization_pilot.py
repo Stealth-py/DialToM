@@ -80,16 +80,21 @@ def get_data(d_desc = 'MI', task = 'retrospective'):
     elif d_desc == 'PFG':
         task_desc = 'Persuasion Conversation'
 
-    combined_data = json.load(open(f'verified_data/{d_desc}_{task}_verified.json', 'r'))
-    selected_subs = list(combined_data.keys())
+    combined_data = json.load(open(f'data/{d_desc}_{task}_verified.json', 'r', encoding='utf8'))
+
+    idx_to_id = {}
+    for i in range(len(combined_data)):
+        idx_to_id[combined_data[i]['id']] = i
+
+    selected_subs = list(idx_to_id.keys())
 
     data = []
 
     for sub_id in selected_subs:
-        id_ = sub_id.split('_')[0]
-        state = sub_id.split('_')[1]
+        curr_data = combined_data[idx_to_id[sub_id]]
 
-        curr_data = combined_data[id_]
+        id_ = sub_id
+        state = curr_data['state']
 
         if task == 'prospective':
             data.append({
@@ -97,10 +102,10 @@ def get_data(d_desc = 'MI', task = 'retrospective'):
                 'ctx': curr_data['ctx'],
                 'correct_option': curr_data['correct_option'],
                 'options': curr_data['options'],
-                'correct_action': curr_data['actions']['correct_action'],
-                'distractors': curr_data['actions'][state],
+                'correct_action': curr_data['correct_action'],
+                'distractors': curr_data['distractors'],
                 'state': state,
-                'topic': curr_data[id_]['topic'],
+                'topic': curr_data['topic'],
                 'task_desc': task_desc
             })
         elif task == 'prospective-easy':
@@ -110,17 +115,17 @@ def get_data(d_desc = 'MI', task = 'retrospective'):
 
             random_distractors = []
             for rid in random_ids:
-                random_distractors.append('\n'.join(combined_data[rid]['ctx'][:4]))
+                random_distractors.append('\n'.join(combined_data[idx_to_id[rid]]['ctx'][:4]))
 
             data.append({
                 'id': id_,
                 'ctx': curr_data['ctx'],
                 'correct_option': curr_data['correct_option'],
                 'options': curr_data['options'],
-                'correct_action': curr_data['actions']['correct_action'],
+                'correct_action': curr_data['correct_action'],
                 'distractors': random_distractors,
                 'state': state,
-                'topic': curr_data[id_]['topic'],
+                'topic': curr_data['topic'],
                 'task_desc': task_desc
             })
         else:
@@ -130,7 +135,7 @@ def get_data(d_desc = 'MI', task = 'retrospective'):
                 'correct_option': curr_data['correct_option'],
                 'options': curr_data['options'],
                 'state': state,
-                'topic': curr_data[id_]['topic'],
+                'topic': curr_data['topic'],
                 'task_desc': task_desc
             })
     

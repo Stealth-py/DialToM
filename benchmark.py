@@ -28,11 +28,11 @@ np.random.seed(42)
 load_dotenv()
 
 openai = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
-# gemini = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
-# openrouter = OpenAI(
-#     base_url = 'https://openrouter.ai/api/v1',
-#     api_key = os.environ.get('OPENROUTER_API_KEY')
-# )
+gemini = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
+openrouter = OpenAI(
+    base_url = 'https://openrouter.ai/api/v1',
+    api_key = os.environ.get('OPENROUTER_API_KEY')
+)
 
 
 def get_data(d_desc = 'MI', task = 'retrospective'):
