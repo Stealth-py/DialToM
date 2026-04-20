@@ -78,7 +78,7 @@ def get_data(d_desc = 'MI', task = 'retrospective'):
 
             random_distractors = []
             for rid in random_ids:
-                random_distractors.append('\n'.join(combined_data[rid]['ctx'][:4]))
+                random_distractors.append('\n'.join(combined_data[idx_to_id[rid]]['ctx'][:4]))
 
             data.append({
                 'id': id_,
@@ -447,22 +447,9 @@ def written(model_id='gemini-3-pro-preview'):
 
     out_dir = 'results'
 
-    combined_data = pd.read_csv('data/written_inference.csv')
+    df = pd.read_csv('data/written_inference.csv')
     
-    # combined_data = {}
-    # for d_desc in ['MI', 'ESC', 'PFG']:
-    #     temp = {}
-
-    #     for file in os.listdir(f'data/final/{d_desc}'):
-    #         if file.endswith('json'):
-    #             curr_data = json.load(open(os.path.join(f'data/final/{d_desc}', file), 'r', encoding='utf8'))
-
-    #             for key in curr_data:
-    #                 # print(file, key)
-    #                 if key not in temp:
-    #                     temp[key] = curr_data[key]
-        
-    #     combined_data[d_desc] = temp
+    combined_data = json.load(open('data/combined_written_data.json', 'r', encoding='utf8'))
 
     inferences = []
     thoughts = []
@@ -472,13 +459,13 @@ def written(model_id='gemini-3-pro-preview'):
     curr_idx = 0
 
     if os.path.exists(os.path.join(os.path.join(os.path.join(out_dir, simplified_models[model_id])), f'written_inf.csv')):
-        df = pd.read_csv(os.path.join(os.path.join(os.path.join(out_dir, simplified_models[model_id])), f'written_inf.csv'))
+        df_new = pd.read_csv(os.path.join(os.path.join(os.path.join(out_dir, simplified_models[model_id])), f'written_inf.csv'))
 
-        inferences = df['generated_inference'].values.tolist()
+        inferences = df_new['generated_inference'].values.tolist()
 
         curr_idx = len(inferences)
 
-    for df_idx, curr_row in tqdm(combined_data.iloc[curr_idx:].iterrows()):
+    for df_idx, curr_row in tqdm(df.iloc[curr_idx:].iterrows()):
         d_desc = curr_row['dataset']
         curr_state = curr_row['mental_state']
         id_ = curr_row['sub_id']
@@ -576,16 +563,18 @@ Answer:
                 messages=[
                     {'role': 'user', 'content': prompt}
                 ],
-                extra_body=dict(requires_parameters=True, providers=dict(sort='latency'), response_format=dict(type='json_schema', json_schema=freeText.model_json_schema(), strict=True)
+                extra_body=dict(requires_parameters=True, providers=dict(sort='latency')#, response_format=dict(type='json_schema', json_schema=freeText.model_json_schema(), strict=True)
                 ),
             ).choices[0].message.content
-
+            
+            # option = get_openrouter_resp(prompt, model_id)
 
         inferences.append(option)
 
         df_curr = df.iloc[:df_idx].copy()
 
         print(inferences)
+        print(df_curr)
 
         df_curr['generated_inference'] = inferences
 
@@ -597,6 +586,7 @@ Answer:
 
     print('-----------------------')
     print('Written inference saved for ', model_id)
+
 
 def parse_args():
     parser = ArgumentParser(description="Benchmarking script for machine ToM")
