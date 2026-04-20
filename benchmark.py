@@ -28,11 +28,11 @@ np.random.seed(42)
 load_dotenv()
 
 openai = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
-gemini = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
-openrouter = OpenAI(
-    base_url = 'https://openrouter.ai/api/v1',
-    api_key = os.environ.get('OPENROUTER_API_KEY')
-)
+# gemini = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
+# openrouter = OpenAI(
+#     base_url = 'https://openrouter.ai/api/v1',
+#     api_key = os.environ.get('OPENROUTER_API_KEY')
+# )
 
 
 def get_data(d_desc = 'MI', task = 'retrospective'):
@@ -447,7 +447,7 @@ def written(model_id='gemini-3-pro-preview'):
 
     out_dir = 'results'
 
-    df = pd.read_csv('data/written_inference.csv')
+    written_df = pd.read_csv('data/written_inference.csv')
     
     combined_data = json.load(open('data/combined_written_data.json', 'r', encoding='utf8'))
 
@@ -459,13 +459,16 @@ def written(model_id='gemini-3-pro-preview'):
     curr_idx = 0
 
     if os.path.exists(os.path.join(os.path.join(os.path.join(out_dir, simplified_models[model_id])), f'written_inf.csv')):
-        df_new = pd.read_csv(os.path.join(os.path.join(os.path.join(out_dir, simplified_models[model_id])), f'written_inf.csv'))
+        df = pd.read_csv(os.path.join(os.path.join(os.path.join(out_dir, simplified_models[model_id])), f'written_inf.csv'))
 
-        inferences = df_new['generated_inference'].values.tolist()
+        inferences = df['generated_inference'].values.tolist()
 
         curr_idx = len(inferences)
+    
+    else:
+        df = written_df
 
-    for df_idx, curr_row in tqdm(df.iloc[curr_idx:].iterrows()):
+    for df_idx, curr_row in tqdm(written_df.iloc[curr_idx:].iterrows()):
         d_desc = curr_row['dataset']
         curr_state = curr_row['mental_state']
         id_ = curr_row['sub_id']
@@ -479,8 +482,7 @@ def written(model_id='gemini-3-pro-preview'):
         else:
             inferences.append(inferences[-1])
 
-            df_curr = df.iloc[:df_idx].copy()
-            print(df_curr.tail())
+            df_curr = df.iloc[:df_idx+1].copy()
             df_curr['generated_inference'] = inferences
 
             os.makedirs(os.path.join(os.path.join(out_dir, simplified_models[model_id])), exist_ok=True)
@@ -571,18 +573,15 @@ Answer:
 
         inferences.append(option)
 
-        df_curr = df.iloc[:df_idx].copy()
+        df_curr = df.iloc[:df_idx+1].copy()
 
         print(inferences)
-        print(df_curr)
 
         df_curr['generated_inference'] = inferences
 
-        print(df_curr.tail())
+        # os.makedirs(os.path.join(os.path.join(out_dir, simplified_models[model_id])), exist_ok=True)
 
-        os.makedirs(os.path.join(os.path.join(out_dir, simplified_models[model_id])), exist_ok=True)
-
-        df_curr.to_csv(os.path.join(os.path.join(os.path.join(out_dir, simplified_models[model_id])), f'written_inf.csv'), index=False)
+        # df_curr.to_csv(os.path.join(os.path.join(os.path.join(out_dir, simplified_models[model_id])), f'written_inf.csv'), index=False)
 
     print('-----------------------')
     print('Written inference saved for ', model_id)
