@@ -1,6 +1,6 @@
 # DialToM
 
-Official code and data repository for the paper "*DialToM: A Theory of Mind Benchmark for Forecasting State-Driven Dialogue Trajectories*", submitted to KDD 2026 DnB track.
+Official code and data repository for the paper "*DialToM: A Theory of Mind Benchmark for Forecasting State-Driven Dialogue Trajectories*."
 
 ---
 
